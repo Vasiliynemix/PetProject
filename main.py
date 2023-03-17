@@ -122,6 +122,6 @@ for category_name, category_href in all_categories.items():
     if iteration_count == 0:
         print("Работа завершена")
         break
-    print(f"Осталось итераций: {iteration_count}!!!")
+    print(f"Осталось итераций: {iteration_count}")
     sleep(random.randrange(2, 4))
 
